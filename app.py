@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from ultralytics import YOLO
+from streamlit_webrtc import webrtc_streamer, VideoProcessorBase
 from streamlit_webrtc import webrtc_streamer, VideoTransformerBase
 import cv2
 import os
