@@ -1,5 +1,7 @@
-streamlit
+streamlit==1.31.0
 ultralytics
-streamlit-webrtc
+streamlit-webrtc==0.47.1
+tornado==6.3.3
 opencv-python-headless
 pandas
+av
