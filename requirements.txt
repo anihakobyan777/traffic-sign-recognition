@@ -1,6 +1,5 @@
-streamlit>=1.30.0
+streamlit
 ultralytics
-streamlit-webrtc>=0.47.1
+streamlit-webrtc
 opencv-python-headless
 pandas
-av
