@@ -154,7 +154,7 @@ def auth_page():
                 update_data(updated_df)
                 st.success("Գրանցումը հաջողվեց! Մուտք գործեք:")
 
-class VideoProcessor(VideoTransformerBase):
+class VideoProcessor(VideoProcessorBase):
     def transform(self, frame):
         img = frame.to_ndarray(format="bgr24")
         results = model(img, conf=0.5)
